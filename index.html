@@ -33,7 +33,7 @@
 </head>
 <body class="font">
     <header class=" bg-[#f5f5f5]">
-       <nav class="container mx-auto max-w-[80%]">
+       <nav class="lg:container lg:mx-auto sm:w-full lg:max-w-[80%]">
             <div class="navbar">
                 <div class="navbar-start">
                    <h1 class="text-2xl font-bold bg-b-color p-2 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -44,7 +44,7 @@
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1 text-xl text-[#737373] font-semibold">
-                    <li class="hover:text-black duration-300"><a>Home</a></li>
+                    <li class="hover:text-black bg-none duration-300"><a>Home</a></li>
                     <li class="hover:text-black duration-300"><a>Services</a></li>
                     <li class="hover:text-black duration-300"><a>Portfolio</a></li>
                     <li class="hover:text-black duration-300"><a>Blogs</a></li> 
@@ -89,18 +89,18 @@
                 </div>
               </div>
        </nav>
-       <div class="banar container pb-10 mx-auto max-w-[80%]">
-        <div class="banar-img container mx-auto max-w-[50%]"><img src="./images/banner.png" alt=""></div>
+       <div class="banar md:container pb-10 md:mx-auto sm:w-full md:max-w-[80%]">
+        <div class="banar-img container mx-auto sm:w-4/5 md:max-w-[50%]"><img src="./images/banner.png" alt=""></div>
         <div class="hero">
           <div class="hero-content text-center">
             <div class="max-w-full">
-              <h1 class="text-5xl font-bold">A barn house of this design has a striking appearance</h1>
-              <div class="container mx-auto max-w-[80%]">
+              <h1 class="text-4xl font-bold">A barn house of this design has a striking appearance</h1>
+              <div class="md:container md:mx-auto lg:max-w-[80%]">
                 <p class="py-6">
                   The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
                 </p>
               </div>
-              <button class="btn btn bg-[#d4f7ae] font-extrabold rounded-3xl">View Details<p class="bg-b-color rounded-full text-xs font-extralight p-1 text-black"> 
+              <button class="btn btn bg-[#d4f7ae] font-extrabold w-full lg:w-max rounded-3xl">View Details<p class="bg-b-color rounded-full text-xs font-extralight p-1 text-black"> 
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
               </svg>
@@ -109,9 +109,76 @@
           </div>
         </div>
        </div>
-    
+
+
     </header>
     <main>
+      <section class="bg-[#f4f4f4] relative">
+      <div class=" absolute -rotate-[12] -top-5 left-32 hidden lg:flex"><img src="./images/Vector.png" alt=""></div>
+        <div class="card lg:card-side md:container pb-10 md:mx-auto  md:max-w-[80%]">
+          
+          <div class="card-body  lg:w-2/5">
+            <div class=" ">
+              <button class="btn font-bold bg-white w-max rounded-3xl"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+              </svg><a class="inline-flex" href="#">About Us</a>
+              </button>
+             </div>
+            <h2 class="card-title text-4xl lg:text-5xl font-bold mb-5 ">We design thoughtful, liveable spaces</h2>
+            <p>The barn house captivates with its blend of rustic charm and 
+              modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            <div class="card-actions mt-5">
+              <div class="flex w-full flex-col">
+                <div class="card card-side bg-white rounded-box p-8  lg:items-center mb-6">
+                <div class="w-full lg:w-3/12 mr-5">
+                  <img src="./images/commercial.png" alt="">
+                </div>
+                 <div class="">
+                  <h3 class="font-bold">Commercial</h3>
+                  <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                 </div>
+                </div>
+              
+                <div class="card card-side bg-white rounded-box p-10  lg:items-center ">
+                  <div class="w-full lg:w-3/12 mr-5">
+                    <img src="./images/residential.png" alt="">
+                  </div>
+                   <div class="">
+                    <h3 class="font-bold">Residential</h3>
+                    <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                   </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <figure class=" m-6 lg:m-0">
+            <img src="./images/Rectangle.png"alt="Album"/>
+          </figure>
+        </div>
+       
+      </section>
+      <section class="bg-[#f4f4f4]">
+      
+
+        <div class="hero ">
+          
+          <div class="hero-content text-center">
+            <div class="">
+              <div class="">
+                <button class="btn font-blod  my-2 bg-white rounded-3xl"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                </svg><a class="inline-flex" href="#">How we works</a>
+                </button>
+              </div>
+              <h1 class="text-5xl font-extrabold">Our Works Process</h1>
+              <p class="py-6">
+                The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+              </p>
+             
+            </div>
+          </div>
+        </div>
+      </section>
   
 
     </main>
