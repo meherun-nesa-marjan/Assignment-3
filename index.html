@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSIGNMENT-3</title>
+
+    <!---- =========   DAISY UI AND TAILWIND =========   ---->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+   
+    <style>
+        .font{
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+   <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+           'b-color': '#ABEF5F',
+
+          },
+        },
+      },
+    }
+  </script>
+</head>
+<body class="font">
+    <header class=" bg-[#f5f5f5]">
+       <nav class="container mx-auto max-w-[80%]">
+            <div class="navbar">
+                <div class="navbar-start">
+                   <h1 class="text-2xl font-bold bg-b-color p-2 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                  </svg>
+                  </h1>
+                  <a class="btn btn-ghost text-4xl font-extrabold">Rinterio</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 text-xl text-[#737373] font-semibold">
+                    <li class="hover:text-black duration-300"><a>Home</a></li>
+                    <li class="hover:text-black duration-300"><a>Services</a></li>
+                    <li class="hover:text-black duration-300"><a>Portfolio</a></li>
+                    <li class="hover:text-black duration-300"><a>Blogs</a></li> 
+                    <li class="hover:text-black duration-300"><a>Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end flex space-x-3">
+                    <div class="bg-white border-inherit lg:flex hidden text-[#737373] rounded-full p-2  border-black">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                        <path fill-rule="evenodd" d="M10.5 3.75a6.75 6.75 0 1 0 0 13.5 6.75 6.75 0 0 0 0-13.5ZM2.25 10.5a8.25 8.25 0 1 1 14.59 5.28l4.69 4.69a.75.75 0 1 1-1.06 1.06l-4.69-4.69A8.25 8.25 0 0 1 2.25 10.5Z" clip-rule="evenodd" />
+                      </svg>
+                      
+                    </div>
+                    <div class="bg-white border-inherit hidden lg:flex text-[#737373] rounded-full p-2">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                      </svg>
+                      
+                      </div>
+                      <button class="btn bg-b-color lg:flex hidden font-extrabold rounded-3xl">Book Consult
+                       <p class="bg-black rounded-full text-xs font-extralight p-1 text-white"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                      </svg>
+                    </p>
+                      </button>
+                      <div class="sm:flex bg-white border-inherit lg:hidden text-[#737373] rounded-full">
+                        <button class="btn btn-square btn-ghost">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            class="inline-block h-5 w-5 stroke-current">
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M4 6h16M4 12h16M4 18h16"></path>
+                          </svg>
+                        </button>
+                      </div>  
+                </div>
+              </div>
+       </nav>
+       <div class="banar container pb-10 mx-auto max-w-[80%]">
+        <div class="banar-img container mx-auto max-w-[50%]"><img src="./images/banner.png" alt=""></div>
+        <div class="hero">
+          <div class="hero-content text-center">
+            <div class="max-w-full">
+              <h1 class="text-5xl font-bold">A barn house of this design has a striking appearance</h1>
+              <div class="container mx-auto max-w-[80%]">
+                <p class="py-6">
+                  The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+                </p>
+              </div>
+              <button class="btn btn bg-[#d4f7ae] font-extrabold rounded-3xl">View Details<p class="bg-b-color rounded-full text-xs font-extralight p-1 text-black"> 
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+              </svg>
+            </p></button>
+            </div>
+          </div>
+        </div>
+       </div>
+    
+    </header>
+    <main>
+  
+
+    </main>
+    <footer>
+
+    </footer>
+    <!-- fontawesome -->
+<script src="https://kit.fontawesome.com/67aaea8a25.js" crossorigin="anonymous"></script>
+</body>
+</html>
